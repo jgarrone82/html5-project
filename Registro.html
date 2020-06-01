@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta name="author" content="Jorge Ariel Garrone">
+        <meta name="keywords" content="html,curso,css,javascript">
+        <meta name="description" content="Curso de html">    
+        <title>Tu Servicio.com</title>
+    </head>
+    <body>
+        <header>
+            
+            <h1><img src="img/office-computer.svg" alt="Logo" width="50px"> TuServicio.com</h1>
+            <h2>Te reparamos el computador</h2>
+            <nav>
+                <ul>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="Servicios.html">Servicios</a></li>
+                    <li><a href="Contacto.html">Contáctenos</a></li>
+                    <li><a href="Login.html">Inicio de Sesión</a></li>
+                    <li>Registro</li>
+                </ul>        
+            </nav>            
+        </header>
+        <main>
+            <hr>
+            <h2>Registro</h2>
+            <form>
+                <fieldset>
+                    <br>
+                    <legend>Nuevo Usuario</legend>
+                    <label for="email">Email *</label><br>
+                    <input type="email" name="email" required> <br><br>
+                    <label for="pwd">Contraseña *</label><br>
+                    <input type="password" name="pwd" required><br><br>
+                    <label for="pwd2">Confirmar Contraseña *</label><br>
+                    <input type="password" name="pwd2" required><br><br>
+                    <label for="visual">Donde nos ha visto</label><br>
+                    <input type="radio" id="rgoogle" name="eleccion">
+                    <label for="rgoogle">Google</label>
+                    <input type="radio" id="rotro" name="eleccion">
+                    <label for="rotro">Otro</label><br><br>
+                    <label for="comentario">Comentario *</label><br>
+                    <textarea name="comentario" id="comentario" cols="30" rows="8" required></textarea><br><br>
+                    <input type="checkbox" name="acepto" id="acepto" required>
+                    <label for="acepto">Acepto términos y condiciones *</label><br><br>
+                    <button>Continuar</button><br><br>
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <hr>
+            <p>Derechos Reservados</p>
+        </footer>
+    </body>
+</html>
